@@ -1,4 +1,4 @@
-# stock-trader
+# Negocie Ações
 
 ## Project setup
 ```
