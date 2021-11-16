@@ -15,7 +15,6 @@ export default {
 		}
 	},
 	actions: {
-		// eslint-disable-next-line
 		buyStock({ commit }, order) {
 			commit('buyStock', order)
 		},
