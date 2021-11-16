@@ -12,7 +12,7 @@ export default {
 	actions: {
 		// eslint-disable-next-line
 		buyStock({ commit }, order) {
-			commit()
+			commit('buyStock', order)
 		},
 		initStocks({ commit }) {
 			commit('setStocks', stocks)
