@@ -27,6 +27,7 @@ export default {
 	},
 	methods: {
 		buyStock() {
+			// eslint-disable-next-line
 			const order = {
 				stockId: this.stock.id,
 				stockPrice: this.stock.price,
@@ -34,7 +35,7 @@ export default {
 			}
 
 			this.quantity = 0
-		}
+		},
 	}
 }
 </script>
